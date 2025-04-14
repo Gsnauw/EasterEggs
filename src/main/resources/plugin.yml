@@ -1,0 +1,8 @@
+name: EasterEggs
+version: '1.0.0'
+main: be.gsnauw.eastereggs.EasterEggs
+api-version: '1.21'
+prefix: EasterEggs
+authors: [ Gilles ]
+description: Place eastereggs for players to claim and get a reward.
+website: Gsnauw.be
