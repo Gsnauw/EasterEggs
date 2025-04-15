@@ -6,3 +6,30 @@ prefix: EasterEggs
 authors: [ Gilles ]
 description: Place eastereggs for players to claim and get a reward.
 website: Gsnauw.be
+soft-depend: [Vault]
+commands:
+  eastereggs:
+    description: The main command.
+    usage: /<command>
+    aliases:
+      - easteregg
+    default: op
+    permission: eastereggs.use
+
+  eastereggsadmin:
+    description: The main admin command.
+    usage: /<command>
+    aliases:
+      - eastereggadmin
+    default: op
+    permission: eastereggs.admin
+
+
+permissions:
+  eastereggs.*:
+    description: Give all permissions at once.
+    default: op
+    children:
+      eastereggs.use: true
+      eastereggs.help: true
+      eastereggs.admin: true

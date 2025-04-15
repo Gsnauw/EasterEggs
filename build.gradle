@@ -16,10 +16,16 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven { url 'https://libraries.minecraft.net/' }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
+    compileOnly("org.projectlombok:lombok:1.18.36")
+    annotationProcessor("org.projectlombok:lombok:1.18.36")
+    compileOnly("com.mojang:authlib:1.5.21")
+    compileOnly("com.github.MilkBowl:VaultAPI:1.7")
 }
 
 tasks {

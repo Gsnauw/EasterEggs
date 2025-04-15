@@ -1,0 +1,16 @@
+skull-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNlZGRjMjNmOWQ5NmJhYWEwZDJkN2I5ZWMxODBjZDdiZWE1NDQ3ZDM5YzQyNWNhOWU0NGQ4ODA4ZWExMWVhMCJ9fX0="
+
+messages:
+  prefix: '&7[&b&lSnow&f&lVille&7]&8 » &f'
+  no-permission: '&cJe hebt geen permissie om dit command uit te voeren!'
+  player-command: 'Dit is een player-only command.'
+
+  reload: 'De plugin is gereload.'
+  check-up: "Je hebt &a<aantal1>/<aantal2> &feastereggs verzameld."
+  egg-added: "Easteregg is geplaatst! ID: &a<eggid>"
+  egg-not-found: "&cOpgegeven easteregg is niet gevonden."
+  egg-removed: "Easteregg met ID: &a<eggid> &fis verwijderd."
+  egg-teleport: "Je bent geteleporteert naar een easteregg. ID: &a<eggid>"
+  egg-reward: "Je verdiende &a<amount>x <reward> &fvoor het openen van deze easteregg."
+  egg-final-reward: "Je hebt alle eastereggs gevonden! Hiervoor krijg je een grotere reward."
+  egg-already-claimed: "&cJe hebt deze easteregg al geopend."
