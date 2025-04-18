@@ -27,6 +27,11 @@ public class EasterCommand implements CommandExecutor {
             return true;
         }
 
+        if (eggManager.getEggs() == null ) {
+            p.sendMessage(chat.prefix("Er zijn nog geen eastereggs."));
+            return true;
+        }
+
         int foundAmount = eggManager.collectedEggs(p).size();
         int totalAmount = eggManager.getEggs().size();
         String orgMessage = mainConfig.getString("messages.check-up");

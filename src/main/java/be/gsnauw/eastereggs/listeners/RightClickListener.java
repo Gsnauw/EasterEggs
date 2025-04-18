@@ -40,6 +40,10 @@ public class RightClickListener implements Listener {
         if (eggId == null) {
             return;
         }
+        if (!p.hasPermission("eastereggs.use")) {
+            p.sendMessage(chat.format("&ceastereggs.use"));
+            return;
+        }
         if (!clickedMaterial.equals(Material.PLAYER_HEAD)) {
             p.sendMessage(chat.format("&cEr is een probleem met deze easteregg. Meld dit bij staff. ID: " + eggId));
             return;

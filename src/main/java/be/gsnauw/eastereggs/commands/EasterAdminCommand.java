@@ -101,15 +101,15 @@ public class EasterAdminCommand implements CommandExecutor, TabCompleter {
 
     private void sendHelp(Player p) {
         p.sendMessage(chat.format("&f<------<&e&lEasterEggs&f>------>"));
-        p.sendMessage(chat.format("&e/easteregg add&f - Place an egg at your current location."));
-        p.sendMessage(chat.format("&e/easteregg tp <egg>&f - Teleport to an eggs location."));
-        p.sendMessage(chat.format("&e/easteregg remove <egg>&f - Remove and egg."));
-        p.sendMessage(chat.format("&e/easteregg reload&f - Reload the plugin."));
-        p.sendMessage(chat.format("&e/easteregg help&f - Show this message."));
+        p.sendMessage(chat.format("&e/eastereggadmin add&f - Place an egg at your current location."));
+        p.sendMessage(chat.format("&e/eastereggadmin tp <egg>&f - Teleport to an eggs location."));
+        p.sendMessage(chat.format("&e/eastereggadmin remove <egg>&f - Remove and egg."));
+        p.sendMessage(chat.format("&e/eastereggadmin reload&f - Reload the plugin."));
+        p.sendMessage(chat.format("&e/eastereggadmin help&f - Shows this message."));
     }
 
     private void sendError(Player p) {
-        p.sendMessage(chat.prefix("&cGebruik: /easteregg <add | remove | reload | tp | help>"));
+        p.sendMessage(chat.prefix("&cGebruik: /eastereggadmin <add | remove | reload | tp | help>"));
     }
 
     @Override
